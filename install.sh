@@ -65,7 +65,7 @@ if [ -d "ocs01-test" ]; then
     rm -rf ocs01-test
 fi
 
-git clone https://github.com/yuwamu/ocs01-test.git -b patch-1
+git clone https://github.com/yuwamu/ocs01-test.git -b ux-fixes
 cd ocs01-test
 
 # Build the project
